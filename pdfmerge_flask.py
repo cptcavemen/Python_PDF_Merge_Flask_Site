@@ -31,7 +31,7 @@ def upload_files():
    date = str(now.strftime("%Y-%m-%d"))
    rand = str(random.randint(1,10000))
    seq = date+rand
-   file_name_pdf = 'geektechstuff'+seq+'.pdf'
+   file_name_pdf = 'Combinedpdf'+seq+'.pdf'
    pdfOutput=open(file_name_pdf,'wb')
    pdfWriter.write(pdfOutput)
    pdfOutput.close()
